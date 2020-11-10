@@ -1,0 +1,76 @@
+body {
+    background-color: #ccc;
+    font-family: Helvetica, sans-serif;
+    color: #222;
+    margin-top: 100px;
+}
+
+h1 {
+    margin: 15px 0;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 100;
+}
+
+.soundbox {
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    margin:0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.1) 0 0 10px;
+    border: 1px solid #aaa;
+}
+
+.buttons {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.buttons li{
+    width: 60px;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.playbutton{
+    display: block;
+    width: 80px; 
+    background-color:goldenrod;
+    padding: 14px 14px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.pausebutton{
+    
+    display: block;
+    width: 80px; 
+    background-color:red;
+    padding: 14px 14px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.changebutton{
+    display: block;
+    width: 80px; 
+    background-color: ghostwhite;
+    padding: 14px 14px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.buttons li button:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
